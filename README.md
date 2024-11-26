@@ -87,8 +87,8 @@ If Node.js is not installed or the version is below 18.0.0, follow the instructi
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/khushiram2/ajackusTask.git
+   cd ajackusTask
    ```
 
 2. Install dependencies:
@@ -137,4 +137,3 @@ nvm use 18
 Use [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
 ---
-You can replace placeholders like `your-username` and `your-repo-name` with the actual repository details.
