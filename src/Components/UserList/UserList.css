@@ -1,0 +1,151 @@
+.user-management {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+.table-wrapper{
+    max-height:400px ;
+    overflow-y: auto;
+    padding: 0;
+    margin: 15px 0;
+}
+  .user-table th{
+    position: sticky;
+    top: 0;
+  }
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .user-table td:last-child,
+.user-table th:last-child {
+width: 150px !important;
+}
+  .edit-btn,
+  .delete-btn,
+  .submit-btn {
+    padding: 6px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .submit-btn {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .user-form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .user-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .add-user-btn {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+    
+  .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.more-btn{
+    color: #007bff;
+cursor: pointer;
+}  
